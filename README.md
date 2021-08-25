@@ -1,4 +1,6 @@
 # ping pong
+** NOTE ** - YOU MUST INSTALL PYGAME IN ORDER FOR THIS GAME TO WORK.
+
  You can change VEL, ANGLE, SCORELIMIT, STARTWAIT and FPS to your liking.
  Default score limit (win condition, SCORELIMIT) is 10.
  Default starting wait time (STARTWAIT) is 1500ms.
