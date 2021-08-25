@@ -13,7 +13,7 @@ SPEED = 7.5
 VEL = 5.2
 SCORELIMIT = 10
 ANGLE = random.randint(-10,10)
-
+STARTWAIT = 1500
 
 
 class Top(object):
@@ -155,7 +155,7 @@ while True:
         nextRound()
     if o == 1:
         pygame.display.update()
-        pygame.time.wait(3000)
+        pygame.time.wait(STARTWAIT)
         o +=1
     font = pygame.font.Font("Hhenum-Regular.otf", 74)
     scoredisplay = font.render(str(pts), 1, WHITE)
